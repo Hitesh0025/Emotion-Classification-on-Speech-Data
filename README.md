@@ -116,3 +116,77 @@ Live features:
 
 ## 🗂️ Project Layout
 
+```
+
+Emotion\_Classifier\_App/
+├── app.py               # Streamlit interface
+├── model/
+│   ├── cnn\_model\_full.keras
+│   ├── scaler.pkl
+│   └── encoder.pkl
+├── utils.py             # Feature extractors & helpers
+├── notebooks/
+│   └── training\_pipeline.ipynb
+├── requirements.txt
+└── assets/              # Sample audio clips (optional)
+
+````
+
+---
+
+## 🧰 Tech Stack
+
+- **ML/DL**: TensorFlow, Keras
+- **Audio**: Librosa
+- **UI/Visualization**: Streamlit, Plotly, Seaborn
+- **Others**: Scikit-learn, NumPy, Pandas
+
+---
+
+## 💻 Run It Locally
+
+### Step 1: Clone the repo
+```bash
+git clone https://github.com/your-username/emotion-classifier-app.git
+cd emotion-classifier-app
+````
+
+### Step 2: Create and activate a virtual environment
+
+```bash
+python -m venv venv
+.\venv\Scripts\activate  # Windows
+```
+
+### Step 3: Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Launch the Streamlit app
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🙌 Credits
+
+* RAVDESS Dataset by Ryerson University
+* Open-source contributions from the deep learning community
+* TensorFlow & Librosa teams
+
+---
+
+Let me know if you'd like to add:
+
+* 🔧 Deployment instructions for Streamlit Cloud
+* 📽️ Demo GIF/video
+* 👥 Contributing or licensing guidelines
+
+```
+
+
+```
